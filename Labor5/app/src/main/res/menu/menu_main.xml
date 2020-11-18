@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.hellomenu.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/showMe"
+        android:orderInCategory="100"
+        android:title="@string/showMe"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/image"
+        android:orderInCategory="100"
+        android:title="@string/image"
+        android:icon="@drawable/toast"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/showMeLong"
+        android:orderInCategory="100"
+        android:title="@string/showMeLong"
+        app:showAsAction="ifRoom" />
+</menu>
